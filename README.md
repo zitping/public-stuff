@@ -5,7 +5,7 @@
 - `mguns-update.yml` uses gameservermanager's steamcmd image
   - sub in your steam creds
 - `mguns-server.yml` will fire off as many servers as you define
-  - `mguns1.cfg`/`mguns2.cfg` are just different fte.cfg files you can use, i.e. for comp vs casual configs, blockbuster configs, whatever
+  - `mguns1.cfg`/`mguns2.cfg` are just different fteserv.cfg files you can use, i.e. for comp vs casual configs, blockbuster configs, whatever
 - i'm pretty sure if you use this for docker instead of podman-compose, you will need to flip the directories around to /container-dir:/local-dir
 
 - Steps:
